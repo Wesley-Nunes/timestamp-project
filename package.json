@@ -1,24 +1,24 @@
 {
-  "name": "fcc-api-projects-boilerplate",
-  "version": "0.0.1",
-  "description": "An FCC Backend Challenge",
-  "main": "index.js",
+  "name": "timestamp-project",
+  "version": "0.1.0",
+  "description": "Timestamp Micro-service",
+  "main": "src/app.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node --watch src/app.js"
   },
   "dependencies": {
-    "express": "^4.12.4",
-    "cors": "^2.8.0"
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=20.0.0 <21"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/freeCodeCamp/boilerplate-project-timestamp.git"
+    "url": "https://github.com/Wesley-Nunes/timestamp-project"
   },
-  "bugs": {
-    "url": "https://github.com/freeCodeCamp/freeCodeCamp/issues"
-  },
-  "homepage": "https://github.com/freeCodeCamp/boilerplate-project-timestamp#readme",
-  "author": "freeCodeCamp <team@freecodecamp.org>",
+  "homepage": "https://github.com/Wesley-Nunes/timestamp-projec",
+  "author": "@Wesley-Nunes",
   "keywords": [
     "node",
     "express",
